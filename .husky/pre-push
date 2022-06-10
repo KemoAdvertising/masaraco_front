@@ -1,0 +1,10 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm version patch
+
+PACKAGE_VERSION=$(node -p -e "require('./package.json').version")
+
+git tag -a v$PACKAGE_VERSION -m "$(PACKAGE_VERSION)"
+
+git push origin --tags

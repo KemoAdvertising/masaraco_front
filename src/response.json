@@ -1,0 +1,51 @@
+{
+  "status": true,
+  "message": "productdetails",
+  "data": {
+    "sku": "abc121",
+    "image": "url",
+    "r_price": 100,
+    "s_price": 120,
+    "1": {
+      "step": "color",
+      "value": "color",
+      "title": "color",
+      "default": "2",
+      "options": [
+        {
+          "id": "1",
+          "image": "https://s3-eu-west-1.amazonaws.com/studio-henk-live/assets/Images/configurator/shape-new/configurator_symbol_tabletop_rectangular.jpg",
+          "text": "red"
+        },
+        {
+          "id": "2",
+          "image": "https://s3-eu-west-1.amazonaws.com/studio-henk-live/assets/Images/configurator/shape-new/configurator_symbol_tabletop_rectangular.jpg",
+          "text": "blue"
+        }
+      ]
+    },
+    "2": {
+      "step": "material",
+      "value": "material",
+      "title": "material",
+      "default": "5",
+      "options": [
+        {
+          "id": "4",
+          "image": "https://s3-eu-west-1.amazonaws.com/studio-henk-live/assets/Images/configurator/shape-new/configurator_symbol_tabletop_rectangular.jpg",
+          "text": "wool"
+        },
+        {
+          "id": "5",
+          "image": "https://s3-eu-west-1.amazonaws.com/studio-henk-live/assets/Images/configurator/shape-new/configurator_symbol_tabletop_rectangular.jpg",
+          "text": "polyester"
+        }
+      ]
+    },
+    "3": {
+      "step": "size",
+      "value": "size",
+      "title": "size"
+    }
+  }
+}
